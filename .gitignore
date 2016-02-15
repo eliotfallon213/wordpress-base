@@ -34,7 +34,6 @@ ignored
 ###################
 
 .capistrano
-config
 
 ###################
 #  User
