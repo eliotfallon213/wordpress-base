@@ -1,0 +1,23 @@
+{
+  "name": "spam",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-bower-install": "*",
+    "grunt-browser-sync": "^1.9.1",
+    "grunt-concurrent": "*",
+    "grunt-modernizr": "*",
+    "grunt-php": "*",
+    "grunt-sass": "*",
+    "jshint-stylish": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

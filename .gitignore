@@ -1,0 +1,62 @@
+###################
+#  OSX
+###################
+
+.DS_Store
+
+###################
+#  Node
+###################
+
+node_modules
+
+###################
+#  Wordpress
+###################
+
+wordpress/wp-content/uploads/*
+wordpress/wp-config.php
+
+###################
+#  General
+###################
+
+ignored
+
+###################
+#  Vagrant
+###################
+
+.vagrant
+
+###################
+#  Capistrano
+###################
+
+.capistrano
+config
+
+###################
+#  User
+###################
+
+.admin_htpasswd
+.alias
+.mysql_history
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cshrc
+.oldprocmailrc
+.profile
+.procmailrc
+.vacation.db
+.vacation.msg
+.viminfo
+.ssh
+logs
+Maildir
+
+
+

@@ -1,0 +1,12 @@
+{
+    "name": "dp14",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "es5-shim": "~3.4.0",
+        "modernizr": "~2.8.2",
+        "html5shiv": "latest",
+        "bootstrap-sass-official": "^3.2.0"
+    },
+    "devDependencies": {}
+}

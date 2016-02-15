@@ -1,0 +1,23 @@
+Include /etc/phpmyadmin/apache.conf
+
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+
+	DocumentRoot /vagrant/wordpress
+
+	EnableSendfile off
+
+	<Directory /vagrant/wordpress>
+	    Options Indexes FollowSymLinks MultiViews
+      Require all granted
+      allow from all
+	</Directory>
+
+	ErrorLog ${APACHE_LOG_DIR}/vagrant.error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/vagrant.access.log combined
+</VirtualHost>
