@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
         yeoman: {
             // Configurable paths
-            app: 'wordpress/wp-content/themes/hilton',
+            app: 'wordpress/wp-content/themes/base',
             dist: 'dist'
         },
 
@@ -23,21 +23,15 @@ module.exports = function(grunt) {
                     livereload: true
                 }
             },
-            php: {
-                files: ['<%= yeoman.app %>/**/*.php'],
-                options: {
-                    livereload: true
-                }
-            },
             sass: {
-                files: ['<%= yeoman.app %>/*.scss', '<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+                files: ['<%= yeoman.app %>/*.scss', '<%= yeoman.app %>/css/{,*/}*.{scss,sass}'],
                 tasks: ['sass:dev'],
                 options: {
                     livereload: false
                 }
             },
             styles: {
-                files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
+                files: ['<%= yeoman.app %>/css/{,*/}*.css'],
                 tasks: ['autoprefixer'],
                 options: {
                     livereload: true
@@ -47,11 +41,30 @@ module.exports = function(grunt) {
         browserSync: {
             dev: {
                 bsFiles: {
-                    src: '<%= yeoman.app %>/*.php'
+                    src: [
+                        '<%= yeoman.app %>/**/*.php',
+                        '<%= yeoman.app %>/css/*.css',
+                        '<%= yeoman.app %>/js/{,*/}*.js'
+                        ]
                 },
                 options: {
                     proxy: '127.0.0.1:9000', //our PHP server
                     port: 8080, // our new port
+                    open: true,
+                    watchTask: true
+                }
+            },
+            vagrant: {
+                bsFiles: {
+                    src: [
+                        '<%= yeoman.app %>/**/*.php',
+                        '<%= yeoman.app %>/css/*.css',
+                        '<%= yeoman.app %>/js/{,*/}*.js'
+                        ]
+                },
+                options: {
+                    proxy: 'localhost:8080', //localhost
+                    port: 8085, // our new port - which is where vagrant is
                     open: true,
                     watchTask: true
                 }
@@ -70,7 +83,7 @@ module.exports = function(grunt) {
         sass: {
             dev: {
                 files: {
-                    '<%= yeoman.app %>/styles/style.css': '<%= yeoman.app %>/styles/style.scss'
+                    '<%= yeoman.app %>/css/style.css': '<%= yeoman.app %>/css/style.scss'
                 },
                 options: {
                     outputStyle: 'compressed'
@@ -95,4 +108,6 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['php', 'browserSync', 'watch']);
+    grunt.registerTask('mamp', ['php', 'browserSync', 'watch']);
+    grunt.registerTask('vagrant', ['browserSync:vagrant', 'watch']);
 };

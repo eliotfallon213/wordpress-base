@@ -1,36 +1,36 @@
 /*!
- * Only using a select amount of the wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap componentst to save weight.
- * In order to get some extra ones see assets/stylesheets/__wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss in the Bower package to see what's available.
+ * Only using a select amount of the wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap componentst to save weight.
+ * In order to get some extra ones see assets/stylesheets/__wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss in the Bower package to see what's available.
  *
  */
 
 // Core variables and mixins
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
 
 // Reset and dependencies
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/print";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/glyphicons";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/print";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/glyphicons";
 
 // Core CSS
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/code";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/tables";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/forms";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/buttons";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/code";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/tables";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/forms";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/buttons";
 
 // Components
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/component-animations";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navbar";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/component-animations";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navbar";
 
 // Components w/ JavaScript
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/carousel";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/modals";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/carousel";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/modals";
 
 // Utility classes
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
-@import "wordpress/wp-content/themes/harvest/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
+@import "wordpress/wp-content/themes/base/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";

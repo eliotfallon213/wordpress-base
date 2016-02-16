@@ -1,48 +1,10 @@
 @import '_reset';
+
+//Add in the Bootstrap vars
 $gold: #9b8442;
 $ltGold: #ebe7d9;
-
 $text-color: #191919;
 $link-color: $gold;
-$font-family-sans-serif: 'Open Sans', sans-serif;
-$font-family-serif: 'Lora', serif;
-$font-size-base: 14px;
-$font-size-h2: floor(($font-size-base * 1.4));
-$border-radius-base: 0;
-$icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
-
-$grid-gutter-width: 15px;
-
-$nav-link-hover-bg: #fff;
-
-$navbar-default-bg: #fff;
-$navbar-border-radius: 0;
-$navbar-default-link-color: $gold;
-$navbar-default-link-hover-bg: #fff;
-$navbar-default-border: #fff;
-
-$navbar-default-brand-hover-color: #fff;
-$navbar-default-toggle-border-color: $gold;
-$navbar-default-link-hover-color: $ltGold;
-$navbar-default-link-active-bg: transparent;
-$navbar-default-toggle-icon-bar-bg: $gold;
-$navbar-default-toggle-hover-bg: $ltGold;
-
-$navbar-inverse-color: #fff;
-$navbar-inverse-link-color: #fff;
-$navbar-inverse-link-active-color: #fff;
-$navbar-inverse-link-disabled-color: #fff;
-$navbar-inverse-link-active-bg: transparent;
-$navbar-inverse-brand-color: #fff;
-$navbar-inverse-bg: $gold;
-$navbar-inverse-border: $gold;
-
-$btn-default-color: #fff;
-$btn-default-border: #fff;
-$btn-default-bg: transparent;
-
-$modal-content-border-color: $gold;
-$modal-header-border-color: $gold;
 
 
 // bower:scss
@@ -101,7 +63,6 @@ mark {
   font-weight: bold;
 }
 
-
 /* Mozilla dosen't style placeholders by default */
 
 input:-moz-placeholder {
@@ -128,10 +89,6 @@ video {
   width: 100%;
 }
 
-@import '_header-footer';
-@import '_home';
-@import '_page';
-@import '_dual';
 
 
 
